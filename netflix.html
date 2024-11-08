@@ -92,23 +92,78 @@
     </header>
     <main class="bg-black text-light">
       <section id="main-intro">
-        <div class="container d-flex">
-          <h1>TV Shows</h1>
+        <div class="container d-flex align-items-center">
+          <h1 class="my-4">TV Shows</h1>
           <div class="mx-2">
             <button
               type="button"
-              class="btn btn-primary dropdown-toggle border border-white bg-black rounded-0"
+              class="btn btn-primary dropdown-toggle border border-white bg-black rounded-0 mx-5"
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
               Genres
             </button>
             <ul class="dropdown-menu bg-black border border-white">
-              <li><a class="dropdown-item text-white" href="#">Film </a></li>
+              <li><a class="dropdown-item text-white" href="#">Film</a></li>
               <li>
-                <a class="dropdown-item text-white" href="#">TV Shows</a>
+                <a class="dropdown-item text-white" href="#">TV Series</a>
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+      <section id="firstCarousel">
+        <div class="container">
+            <h1 class="mb-4">Trending Now</h1>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/media/media0.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/media1.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/media10.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/media11.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/media12.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/media/media13.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </section>
